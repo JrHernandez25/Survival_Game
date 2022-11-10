@@ -10,6 +10,13 @@ alert("You wake up next to a camp fire only to find out you have been tied up an
 
 var numb = prompt("So what is it going to be either 1)The knife or 2)Call for your pet wolf")
 
-if(numb = 1){
-    alert("You choose to use the dull knife, it takes a few hours but the knife is eventually able to cut you free so you pick yourself up and head over to an abandon gas station where you know you can find things that you can craft a weapon.")
+if(numb == 1){
+    alert("You choose to use the dull knife, it takes a few hours but the knife is eventually able to cut you free so you pick yourself up and head over to an abandon military base where you know you can find things that you can craft a weapon.")
 }
+else if(numb == 2){
+    alert("Did you hit your head? What made you think that you could tame a wolf so instead you use the dull knife to cut yourself free. After a while your free and so you start walking towards a military base that you know will have supplies in order to craft a weapon.")
+}
+
+alert("You arrived to the military base. So you start looking for anything that could possibly used to make a weapon. Eventually after a while you find a couple of things to make a weapon with.")
+
+var numb = prompt("You have four options of weapons to craft, what will you choose? 1)A Diamond filet knife 2)Garbage Bomb 3)Fixing an M4 Carbine 4)Tuna Fish Sandwhich")
