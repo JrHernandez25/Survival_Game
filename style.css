@@ -3,15 +3,19 @@ background-color:rgb(14, 170, 146);
 }
 h1{
 text-align: center;
-font-family: 'Playfair Display', serif;
+font-family: 'Nosifer', cursive;
 border: 5px solid grey;
 }
 p{
 text-align: center;
-font-family: 'Playfair Display', serif;
+font-family: 'Nosifer', cursive;
 border: 10px solid rgb(12, 42, 214);
-border-bottom-right-radius: 10000px;
-border-bottom-left-radius: 10000px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
 padding-bottom: 150px;
 font-size: 45px;
+}
+a{
+margin-left: 640px;
+font-family: 'Nosifer', cursive;
 }
