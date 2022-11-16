@@ -10,12 +10,15 @@ p{
 text-align: center;
 font-family: 'Nosifer', cursive;
 border: 10px solid rgb(12, 42, 214);
-border-bottom-right-radius: 50px;
-border-bottom-left-radius: 50px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
 padding-bottom: 150px;
 font-size: 45px;
 }
-a{
-margin-left: 640px;
+
+button{
+margin-left: 670px;
 font-family: 'Nosifer', cursive;
+border: 10px solid black;
+color: black;
 }
