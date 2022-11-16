@@ -25,7 +25,7 @@
 //     alert("")
 // }
 let btn = document.createElement("button");
-btn.innerHTML = "Start";
+btn.innerHTML = "Start With Caution";
 btn.onclick = function () {
     alert("Before you begin the game you get to pick a name for your character");
 
@@ -111,7 +111,7 @@ btn.onclick = function () {
         alert("As you were reaching for a weapon you got hungry so instead you reached for a tuna sandwhich that was in a closed tub that read (Caution Hazard). As you were going to eat it a group of bandits approached the base.")
         var numb = prompt("What will you do 1)Will you fight or 2)Run away")
         if(numb == 1){
-            alert("You decided to fight them but before you coward and decided to run away the bandits found you and started attacking you. But as you went to punch the bandit you accdentily hit him with the snadwhich causing him to fall to the floor dead. As more bandits kept attacking you kept hitting them with the sandwhich, and in a minute you had beat every single bandit. After the fight you were quite suprised but your shruged it off and started walking towards the direction of the twon were you were orginally going.")
+            alert("You decided to fight them but before you coward and decided to run away the bandits found you and started attacking you. But as you went to punch the bandit you accdentily hit him with the sandwhich causing him to fall to the floor dead. As more bandits kept attacking you kept hitting them with the sandwhich, and in a minute you had beat every single bandit. After the fight you were quite suprised but your shruged it off and started walking towards the direction of the town were you were orginally going.")
         }
         else if(numb == 2){
             alert("You choose to run away but as you were running you were making too much noise causing the bandits to be alerted and starting to chase you into the woods")
@@ -120,7 +120,7 @@ btn.onclick = function () {
                 alert("While running down the road you tripped on one of the cracks of the road and fell causing the bandits to catch up. The bandits tied you up and took you to their dogs and feed you to them.")
             }
             else if(numb == 2){
-                alert("You quickly ran towards the house and hid. But as you were hidning your stomach started growling which in response you atye the sandwhich causing you to die soon after eating the sandwhich.")
+                alert("You quickly ran towards the house and hid. But as you were hidning your stomach started growling which in response you ate the sandwhich causing you to die soon after eating the sandwhich.")
             }
         }
     }
