@@ -62,6 +62,31 @@ btn.onclick = function () {
             }
             else if(numb == 1){
                 alert("You take refuge in the house. While waiting you fell asleep inside the house.")
+                alert("After a while you wake up. You look around the outside through the window to see if the bandits are anywhere near. After checking you step outside to continue your journey to the town that you were originally going to.")
+                var numb = prompt("After walking for a while you come across a little village of friendly survibors. One of the survivors out in the farm offers you a room to rest in, but you are a little hesitant to accept the offer and are comteplating just declining the offer and continuing down the road. What will you do 1)Take the farmers offer or 2)continue down the road.")
+                if(numb == 1){
+                    alert("You happily accept the farmers offer to rest. The farmer takes you into the village and inside you see children running around and playing so you assume that nothing bad will happen. You are shown to the room that you were offered and told you that they would call you down for something to eat later.")
+                    var numb = prompt("You set down what is left of your gear and lay down but your still suspicious of the village so you want to look around some more but you also want to trust the village. What will you do? 1)will you explore the village or 2)trust the villagers.")
+                    if(numb == 1){
+                        alert("The curious in you makes you jump up from the bed and decide to explore the village but you have to get out of the room without making noise so you crouch over to the door and open it quietly and sneak past the farmers and villagers inside the house and make it outside.")
+                        var numb = prompt("You see too buildings that look worth exploring 1)the food storage house and 2)The city's cheif house")
+                        if(numb == 1){
+                            alert("You wanted to see just how much food this village is producing so you decided to go over to the storage house. When you walked inside you saw first hand how the village was getting its food, not only were they farming produce they were eating people. Insdie you saw people that have been chopped up and some that were behind makeshift metal bars. Horrified you ran out of the storage house, one of the villagers heard the commotion and ran over only to see you standing next to the doorway of the storage. Angered that you found out their secret the villager called out for help in order to kill you to keep the canabalism a secret.")
+                            var numb = prompt("You left your gear in the room what will you do 1)Will you fight bare handed or 2)Make a run to the room to grab your gear.")
+                            if(numb == 1){
+                                alert('Instead of running to retrive your gear you started punching and dodging the villagers and there weapons. After an hour you had successfully killed every villager with your bare hands. You went into the room and retrieved your gear, but before you left you freed any survivors from the storage room. One of the survivors that you freed you managed to reconigzed, it was the famous bounty hunter McTavish Mcgee. You respond with your name ' + username)
+                                alert("McTavish:'Thanks for saving me, I was on my way to Stadium city when I stopped to rest in the village but in the night I was dragged into this storage room. When I woke up I was in here and without my gear, My suspicions is that they might have sold my gear already.' After McTavish tells you what happens you tell him how you were also going to Stadium city. You ask McTavish if you would like to go together, McTavish agrees to accompany you and help you fight off anything while heading to the city. Soon after you and McTavish headout continuing your journey. After a few hours of walking you come across a merchant that exclusivly sells gear. You ask McTavish if he's going to buy new gear, McTavish agrees that he should by some new gear so he does exactly that but while talking to the merchant you notice something familiar. It's McTavish's gear and his revolver, McTavish hasn't noticed his gear is right infront of him.")
+                                var numb = prompt("You procced to tell McTavish of his gear, the merchant takes notice of this and offers you the gear but at a very hefty price, you have the exact amount of money that the merchant is requesting but you also comtplate taking the gear instead of paying. What will you do 1)Pay for the gear or 2)Take back the gear.")
+                                if(numb == 1){
+                                    alert("To avoid any conflict you pay the merchant what he is asking for and retrieve McTavish's gear back, but before you set off again the merchant stops you and thanks you for paying and that for the outragous price he offers to upgrade your knife. You agree and the merchant makes your knife into a longsword with an unbreakable blade. You thank the merchant and move on, McTavish also thanks you for helping him get his gear back and tells you as bounty hunter we should protect the people and not cause trouble for them. After walking for a while you hear screaming.")
+                                }
+                            }
+                        }
+                    }
+                }
+                else if(numb == 2){
+                    alert("You reject the villagers offer and instead choose to walk away, but the villagers are actually canniables and won't let their food gat away that easy so they ambush you and tie you up. After they capture you they drag you to the food storage house and cut you up in order to feed you to the village people. They leave you to bleed to death and in agonizing pain.")
+                }
             }
         }
     }
