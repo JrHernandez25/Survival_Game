@@ -1,24 +1,35 @@
 html{
-background-color:rgb(14, 170, 146);
+background-color:rgb(90, 107, 201);
 }
 h1{
 text-align: center;
 font-family: 'Nosifer', cursive;
-border: 5px solid grey;
+border: 5px solid rgb(90, 107, 201);
+width: 200px;
+font-size: 30px;
+margin-left: 670px;
+color: white;
 }
 p{
 text-align: center;
 font-family: 'Nosifer', cursive;
-border: 10px solid rgb(12, 42, 214);
+border: 10px solid rgb(90, 107, 201);
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
-padding-bottom: 150px;
-font-size: 45px;
+padding-bottom: 20px;
+padding: 20px;
+font-size: 20px;
+width: 550px;
+margin-left: 482px;
+margin-top: 50px;
+color: white;
 }
 
 button{
 margin-left: 670px;
 font-family: 'Nosifer', cursive;
-border: 10px solid black;
-color: black;
+border: 10px rgb(90, 107, 201);
+color: white;
+margin-top: 50px;
+background-color: rgb(90, 107, 201);
 }
