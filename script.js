@@ -190,7 +190,7 @@ btn.onclick = function () {
         else if(numb == 2){
             alert("You choose to run away but as you were running you were making too much noise causing the bandits to be alerted and starting to chase you into the woods")
             var numb = prompt("As you were running you came across an old road and across the road was an old house that was in running distance but you have decide quickly 1)Will you run down the road or 2)Will you hide in the house.")
-            if(numb == 1){
+          if(numb == 1){
                 alert("While running down the road you tripped on one of the cracks of the road and fell causing the bandits to catch up. The bandits tied you up and took you to their dogs and feed you to them.")
             }
             else if(numb == 2){
